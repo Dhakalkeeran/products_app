@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('search/', include('products.urls'))
+    path('search/', include('products.urls'))   # search endpoint leads to urls in products app
 ]
